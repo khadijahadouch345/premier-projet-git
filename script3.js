@@ -40,6 +40,12 @@ let nombre2 =prompt ("entre le deuxieme nomber");
 let nombre3 = prompt("entre le troisieme nombre");
 let delta =(nombre2*nombre2)-(4*nombre1*nombre3)
 //affichage 4
+let x1;
+let x2;
+let x3
 if(delta>0){
-    console.log('')
+    x1=(-nombre2 - (delta* 1/2) )/(2*nombre1);
+    x2=(-nombre2 + (delta* 1/2) )/(2*nombre1);
+}else if(delta ==0){
+    x3=(-nombre2)/(2)
 }
