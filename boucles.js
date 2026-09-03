@@ -43,6 +43,13 @@ while(i<=nbr){
 
 }
 //challenge 5
+let base =prompt("entre un nomre base ");
+let exposant = prompt("entre l exposant");
+let puissance =1;
+for( let i=1 ; i<=exposant ;i++){
+    puissance= puissance*base;
+}
+console.log(`le resultat debase${base} et d exposant ${exposant} est:${base}^${exposant}= ${puissance}`);
 
 
 
