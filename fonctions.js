@@ -36,6 +36,7 @@ function factorielle(a){
 }
 console.log(factorielle(4));
 //challenge 6
+
 //challenge7
 function compteRebours(a){
     for(let i=a;i>=0;i--){
