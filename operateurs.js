@@ -18,8 +18,25 @@
 // //challenge 5
 //  let nombre= propmt("entre un nombre en secondes");
 //  console.log("Conversion en heures est :${nombre*60*60}")
+// //challenge 6
+// let nombre=prompt("entre un nombre:");
+// if(nombre>10 && nombre<100){
+//     console.log("le nombre compris entre 10 et 100");
+// }else{
+//     console.log("le nombre n'est pas dans cet intervalle");
+// }
+// //challenge 7
+// let prix=prompt("entre le prix:");
+// let pourcentage=prompt("entre le pourcentage de reduction");
+// let montantReduction=prix*pourcentage/100;
+// let prixFinal=prix-montantReduction;
+// console.log(`Le montant de la reduction est:${montantReduction}`);
+// console.log(`Le pric final est :${prixFinal}`);
+//challenge 8
+let age=prompt("entre votre age");
+let statut=prompt("entre votre statut");
+if(age>=18 && statut==="etudiant"){
 
-let nom ="youcode";
-let x=nom.slice(1,nom.length);
-let y=nom[0].toUpperCase();
-console.log(y+x);
+}else if (age>=21 || statut==="invite"){
+    
+}
