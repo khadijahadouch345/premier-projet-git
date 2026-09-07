@@ -51,8 +51,8 @@ let chainEspc=prompt("entre une chaine de carcter:");
 
 let NovChain="";
 for(let i=chainEspc.length-1;i>=0;i--){
-    if(chainEspc[i]===" "){
-        NovChain=chainEspc[i+1]+NovChain;
+    if(chainEspc[i]!==" "){
+        NovChain=chainEspc[i]+NovChain;
     }
    
 }
