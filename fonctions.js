@@ -54,3 +54,4 @@ function verificetionPatir(a){
 
 }
 verificetionPatir(4);
+
