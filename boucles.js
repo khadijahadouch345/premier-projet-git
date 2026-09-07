@@ -69,7 +69,7 @@ const prompt = require('prompt-sync')();
 let chiffre =prompt("entre les chiffres");
 let r=0;
 for (let i=0 ;i<=chiffre ;i++){
-    if(chiffre%===0){
+    if(chiffre%==0){
     r=2*chiffre+1;
     console.log(`les nombres pairs est:${r}`);
 }
