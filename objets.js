@@ -4,8 +4,8 @@ const rectangle={
     longueur:9,
     largeur:6,
 }
-function air(rectangle){
-    return rectangle.largeur*rectangle.longueur;
+function air(r){
+    return r.largeur*r.longueur;
 }
 let valeur=air(rectangle);
 console.log(valeur);
